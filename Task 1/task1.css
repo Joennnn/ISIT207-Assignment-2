@@ -1,0 +1,28 @@
+.pandaimg {
+    width: 500px; 
+    height: auto;
+    position: absolute;
+}
+
+.buttons {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.right {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+a {
+    color: blue;
+}

@@ -1,0 +1,155 @@
+<!--    
+    Joen Tai
+    UOW ID: 7432100
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Task 5</title>
+        <link rel="stylesheet" href="task5.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body>
+        <script src="task5.js"></script>
+        <script src="function2.js"></script>
+        <div class="function1">
+            <h3>Function 1</h3>
+            <p>
+                This function is a progress bar that will change depending on how much you have scrolled through the webpage. <br>
+                It is used to simply track how far the reader is from the end of the page. <br><br>
+                You can see the progress bar fixed to the bottom of the page.
+            </p>
+            <div class="progressbar"></div>
+        </div>
+        <br><br>
+        <div class="function2">
+            <h3>Function 2</h3>
+            <p>
+                This function is a slider that will allow the user to change the size of the font. <br>
+                It can also be used in a ecommerce website where it filters the price range.
+            </p>
+            <div id="slider">
+                <div class="textsize">The text in <span class="tspan">12</span>px</div>
+                <br>
+                <input class="inputslider" type="range" min="10" max="40">
+            </div>
+            <br> <br>
+            <div class="test">
+                <h3>Price range filter</h3>
+                <p>
+                    <label for="amount">Price range:</label>
+                    <input type="text" class="amount"/>
+                </p>
+                <div class="slider-range"></div>
+                <ul class="products">
+                    <li data-price="10"> product - $10 </li>
+                    <li data-price="50"> product - $50 </li>
+                    <li data-price="100"> product - $100 </li>
+                    <li data-price="150"> product - $150 </li>
+                    <li data-price="200"> product - $200 </li>
+                </ul>
+            </div>
+        </div>
+        <br><br>
+        <h3>Function 3</h3>
+        <p>
+            This function is an accordion that allows more content to be displayed when clicked as it allows the user to collapse the information if needed. <br>
+            It is used to display more information on certain topics or subject.
+        </p>
+        <div class="function3">
+            <div class="accordion">
+                <h3 class="head">Section 1</h3>
+                <div>
+                <p class="content">
+                    This section shows the subject description of ISIT 207.<br><br>
+                    The subject provides students with a practical knowledge of web programming concepts and techniques 
+                    and user interface design techniques used in the creation of dynamic web sites.<br><br>
+                    The subject will provide students with an opportunity to develop an understanding of the principles 
+                    of client and server-based scripts as well as user interface constructs. <br><br>
+                    Students will also be able to apply these principles. The subject provides an in-depth look at the object-oriented features of web programming. <br><br>
+                    Students will have exposure to appropriate software development tools to complete a data cycle of input data - store data - output data via the web.
+                </p>
+                </div>
+                <h3 class="head">Section 2</h3>
+                <div>
+                <p class="content">
+                    This section is the homework I have to do
+                </p>
+                <ul class="content">
+                    <li>Assignment 2</li>
+                    <li>Download Visual Studios</li>
+                    <li>Try ASP.net</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div class="function4">
+            <br><br>
+            <h3>Function 4</h3>
+            <p>
+                This function is a tab which is similar to the accordion. <br>
+                It is used to display more information on certain topics or subject. The user is able to click on the different tab to view the different information provided.
+            </p>
+            <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Section 1</a></li>
+                  <li><a href="#tabs-2">Section 2</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <p>
+                        This section is the homework I have to do
+                    </p>
+                    <ul class="content">
+                        <li>Assignment 2</li>
+                        <li>Download Visual Studios</li>
+                        <li>Try ASP.net</li>
+                    </ul>
+                </div>
+                <div id="tabs-2">
+                    <p>
+                        This section shows the subject description of ISIT 207.<br><br>
+                        The subject provides students with a practical knowledge of web programming concepts and techniques 
+                        and user interface design techniques used in the creation of dynamic web sites.<br><br>
+                        The subject will provide students with an opportunity to develop an understanding of the principles 
+                        of client and server-based scripts as well as user interface constructs. <br><br>
+                        Students will also be able to apply these principles. The subject provides an in-depth look at the object-oriented features of web programming. <br><br>
+                        Students will have exposure to appropriate software development tools to complete a data cycle of input data - store data - output data via the web.
+                    </p>
+                </div>
+              </div>
+        </div>
+        <div class="function5">
+            <br><br>
+            <h3>Function 5</h3>
+            <p>
+                This function is a tooltip where additional information will appear over input boxes. <br>
+                It is used by hovering over the input box to allow the user to understand what is needed in the input box.
+            </p>
+            <p>Hover the field to see the tooltip.</p>
+            <div class="tooltip">
+                <p><label for="age" class="inputbox">Input box</label><input class="input" title="Just a random input box in the webpage"></p>
+            </div>
+        </div>
+        <div class="function6">
+            <br><br>
+            <h3>Function 6</h3>
+            <p>
+                This function is a sortable list. <br>
+                It can be used by dragging the items and rearranging them.
+            </p>
+            <ul class="sortable_list">
+                <li class="ui-state-default">Do assignment 1</li>
+                <li class="ui-state-default">Item 2</li>
+                <li class="ui-state-default">Do CSCI235 Assignment</li>
+                <li class="ui-state-default">Item 4</li>
+                <li class="ui-state-default">Do assignment 2</li>
+                <li class="ui-state-default">Do CSCI235 Implementation</li>
+                <li class="ui-state-default">Item 7</li>
+            </ul>
+        </div>
+    </body>
+</html>

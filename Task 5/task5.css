@@ -1,0 +1,93 @@
+/* Joen Tai
+UOW ID: 7432100 */
+
+body { 
+    margin: 10px; 
+    padding: 10px;
+}
+
+h3, p, li, a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Function 1 */
+.progressbar { 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    height: 20px; 
+    background-color: #39FF14; 
+    transition: all linear 0.1s; 
+    min-width: 1%; 
+}
+
+/* Function 2 */
+.textsize {
+    padding:20px;
+    background:#eee;
+    font-size:12px
+}
+
+.amount {
+    border: 0;
+    color: red;
+    font-weight: bold;
+}
+
+/* Function 3 */
+.function3 {
+    width: 100%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+  
+.accordion .head{
+    font-size: 18px;
+    padding: 20px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+  
+.accordion .content{
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+.accordion .active {
+    background-color: #eee;
+}
+
+/* Function 4 */
+.function4 {
+    height: 580px;
+}
+
+/* Function 5 */
+.inputbox {
+    padding: 10px;
+}
+
+/* Function 6 */
+.function6 {
+    height: 500px;
+}
+
+.sortable_list {
+    width: 323px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+    
+.sortable_list li {
+    margin: 0 5px 5px 5px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 300px;
+}

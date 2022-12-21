@@ -1,0 +1,18 @@
+.myTable {
+    width: 500px;
+    height: 250px;
+}
+
+.myTable, tr, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.popup {
+    font-size: 20px;
+    position: absolute;
+    margin-left: 28%;
+    background-color: lightcyan;
+    width: 80px;
+    height: 30px;
+}
